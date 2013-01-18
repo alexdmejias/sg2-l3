@@ -2,28 +2,40 @@
 
 class Main_Controller extends Base_Controller {
 
+	public function config($data = array()) {
+		$defaults = [
+			'title_base' => 'Greenserve',
+			'title_separator' => ' | ',
+			'title' => ''
+		];
+
+		$data = array_merge($defaults, $data);
+		return $data;
+	}
+
+
 	public function action_index() {
-		$data['title'] = "GreenServe";
-		return View::make('main.index', $data);
+
+		return View::make('main.index', $this->config());
 	}
 
 	public function action_why() {
-		$data['title'] = "GreenServe";
-		return View::make('main.why', $data);
+		$data['title'] = "Why";
+		return View::make('main.why', $this->config($data));
 	}
 
 	public function action_pledge() {
-		$data['title'] = "GreenServe";
-		return View::make('main.pledge', $data);
+		$data['title'] = "Pledge";
+		return View::make('main.pledge', $this->config($data));
 	}
 
 	public function action_tips() {
-		$data['title'] = "GreenServe";
-		return View::make('main.tips', $data);
+		$data['title'] = "Tips";
+		return View::make('main.tips', $this->config($data));
 	}
 
 	public function action_about() {
-		$data['title'] = "GreenServe";
-		return View::make('main.about', $data);
+		$data['title'] = "About";
+		return View::make('main.about', $this->config($data));
 	}
 }

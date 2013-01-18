@@ -2,7 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>{{ $title }}</title>
+	<title>
+		@if(!empty($title))
+			{{ $title_base }} {{ $title_separator }} {{ $title }}
+		@else
+			{{ $title_base }}
+		@endif
+
+	</title>
 	{{ Asset::styles() }}
 	{{ Asset::scripts() }}
 </head>
@@ -11,11 +18,10 @@
 		<div id="header" class="grid_48">
 			<div class="grid_44 push_2">
 				<div id="logo" class="grid_16 alpha">
-					<a href="index.php"><img src="IMG/logo8.png" alt="greenserve logo" /></a>
+					<a href="/"><img src="IMG/logo8.png" alt="greenserve logo" /></a>
 				</div>
 				<div id="nav" class="grid_26 push_2 omega">
 					<ul id="navlist">
-						<li>{{ HTML::bottom_js() }}
 						<li>{{ HTML::link_to_action('main@why', 'why') }}</li>
 						<li>{{ HTML::link_to_action('main@pledge', 'pledge') }}</li>
 						<li>{{ HTML::link_to_action('main@tips', 'tips') }}</li>
