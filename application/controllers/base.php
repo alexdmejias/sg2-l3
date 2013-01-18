@@ -9,9 +9,12 @@ class Base_Controller extends Controller {
 	 * @param  array     $parameters
 	 * @return Response
 	 */
-	public function __call($method, $parameters)
-	{
+	public function __call($method, $parameters) {
 		return Response::error('404');
+	}
+
+	public function __construct() {
+		Asset::add('reset', 'css/app.css');
 	}
 
 }
