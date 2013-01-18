@@ -171,3 +171,17 @@ if ( ! Request::cli() and Config::get('session.driver') !== '')
 {
 	Session::load();
 }
+
+
+/**
+ * Require start files.
+ */
+$files = new FilesystemIterator(__DIR__.'/start');
+
+foreach ($files as $file)
+{
+    if ($file->isFile())
+    {
+        require $file->getPathname();
+    }
+}

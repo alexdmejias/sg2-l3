@@ -3,8 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>{{ $title }}</title>
-
 	{{ Asset::styles() }}
+	{{ Asset::scripts() }}
 </head>
 <body>
 	<div class="container_48">
@@ -14,8 +14,14 @@
 					<a href="index.php"><img src="IMG/logo8.png" alt="greenserve logo" /></a>
 				</div>
 				<div id="nav" class="grid_26 push_2 omega">
-
-					nav bar code goes here
+					<ul id="navlist">
+						<li>{{ HTML::bottom_js() }}
+						<li>{{ HTML::link_to_action('main@why', 'why') }}</li>
+						<li>{{ HTML::link_to_action('main@pledge', 'pledge') }}</li>
+						<li>{{ HTML::link_to_action('main@tips', 'tips') }}</li>
+						<li>{{ HTML::link_to_action('main@about', 'about') }}</li>
+						<li>{{ HTML::link('https://greenserve.wordpress.com/', 'Blog') }}</li>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -67,6 +73,8 @@
 		<div class="grid_44 push_2 spacer"></div>
 	</div>
 	{{--SPACER--}}
+
+	{{ Asset::container('footer')->scripts() }}
 </body>
 </html>
 

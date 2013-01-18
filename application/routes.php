@@ -2,11 +2,11 @@
 
 
 Route::get('/', 'main@index');
+Route::get('why', 'main@why');
+Route::get('pledge', 'main@pledge');
+Route::get('tips', 'main@tips');
+Route::get('about', 'main@about');
 
-Route::get('about', function()
-{
-	return View::make('main.about');
-});
 
 /*
 |--------------------------------------------------------------------------

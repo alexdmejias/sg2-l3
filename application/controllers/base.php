@@ -14,7 +14,9 @@ class Base_Controller extends Controller {
 	}
 
 	public function __construct() {
-		Asset::add('reset', 'css/app.css');
+		Asset::add('app', 'css/app.css');
+		Asset::add('jquery','http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js');
+		// Asset::container('footer')->add('test', 'js/test.js');
 	}
 
 }
