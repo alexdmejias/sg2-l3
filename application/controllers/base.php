@@ -19,10 +19,20 @@ class Base_Controller extends Controller {
 		Asset::add('jquery','http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js');
 		Asset::container('footer')->add('google_jsapi', 'http://www.google.com/jsapi');
 		Asset::container('footer')->add('charts', 'js/charts.js');
-
-		$config = [
-			'test' => 'test'
-		];
 	}
+
+	public function config($data = array()) {
+		$defaults = [
+			'title_base' => 'Greenserve',
+			'title_separator' => ' | ',
+			'title' => ''
+		];
+
+		$data = array_merge($defaults, $data);
+		return $data;
+	}
+
+
+
 
 }

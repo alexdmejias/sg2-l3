@@ -2,18 +2,6 @@
 
 class Main_Controller extends Base_Controller {
 
-	public function config($data = array()) {
-		$defaults = [
-			'title_base' => 'Greenserve',
-			'title_separator' => ' | ',
-			'title' => ''
-		];
-
-		$data = array_merge($defaults, $data);
-		return $data;
-	}
-
-
 	public function action_index() {
 
 		return View::make('main.index', $this->config());
