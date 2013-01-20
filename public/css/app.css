@@ -1107,8 +1107,7 @@ build: 3167
   width: 880px;
   margin: 0 0 10px 0;
 }
-
-/* line 11, ../scss/_tips.scss */
+/* line 10, ../scss/_tips.scss */
 #subnav li {
   display: inline;
   list-style-type: none;
@@ -1117,40 +1116,36 @@ build: 3167
   font-family: "museo_slab", Helvetica, Arial, sans-serif;
   font-size: 1.05em;
 }
-
-/* line 20, ../scss/_tips.scss */
+/* line 19, ../scss/_tips.scss */
 #subnav a {
   text-decoration: none;
 }
-
-/* line 24, ../scss/_tips.scss */
+/* line 22, ../scss/_tips.scss */
 #subnav a:link {
   color: #000;
 }
-
-/* line 28, ../scss/_tips.scss */
+/* line 26, ../scss/_tips.scss */
 #subnav a:visited {
   color: #000;
 }
-
-/* line 32, ../scss/_tips.scss */
+/* line 30, ../scss/_tips.scss */
 #subnav a:hover {
   color: #7AC843;
 }
 
-/* line 36, ../scss/_tips.scss */
+/* line 38, ../scss/_tips.scss */
 .tip_whole {
   margin-bottom: 2px;
   padding: 10px;
   font-family: "museo_sans", Helvetica, Arial, sans-serif;
 }
 
-/* line 42, ../scss/_tips.scss */
+/* line 44, ../scss/_tips.scss */
 .tip_header {
   margin: 5px 10px;
 }
 
-/* line 46, ../scss/_tips.scss */
+/* line 48, ../scss/_tips.scss */
 .tip_title {
   display: inline;
   font-weight: 300;
@@ -1158,17 +1153,17 @@ build: 3167
   text-transform: uppercase;
 }
 
-/* line 53, ../scss/_tips.scss */
+/* line 55, ../scss/_tips.scss */
 .tip_social {
   float: right;
 }
 
-/* line 57, ../scss/_tips.scss */
+/* line 59, ../scss/_tips.scss */
 .tip_social img {
   padding-left: 3px;
 }
 
-/* line 61, ../scss/_tips.scss */
+/* line 63, ../scss/_tips.scss */
 .tip_body {
   border-top: white thin solid;
   padding-top: 20px;
@@ -1176,19 +1171,19 @@ build: 3167
   min-height: 200px;
 }
 
-/* line 68, ../scss/_tips.scss */
+/* line 70, ../scss/_tips.scss */
 .tip_links {
   margin-top: 25px;
 }
 
-/* line 72, ../scss/_tips.scss */
+/* line 74, ../scss/_tips.scss */
 .graph {
   margin-top: 50px;
   height: 150px;
   width: 300px;
 }
 
-/* line 78, ../scss/_tips.scss */
+/* line 80, ../scss/_tips.scss */
 .tip_cost {
   font-size: 120px;
 }
@@ -1366,6 +1361,30 @@ ul.lof-navigator li.active, ul.lof-navigator li:hover {
   background: url(../IMG/slider/thumbs/active.png) no-repeat;
 }
 
+@font-face {
+  font-family: 'museo_slab';
+  src: url("../fonts/museo_slab_500-webfont.eot");
+  src: url("../fonts/museo_slab_500-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/museo_slab_500-webfont.woff") format("woff"), url("../fonts/museo_slab_500-webfont.ttf") format("truetype"), url("../fonts/museo_slab_500-webfont.svg#MuseoSlab500") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'museo_slab';
+  src: url("../fonts/museo_slab_700-webfont.eot");
+  src: url("../fonts/museo_slab_700-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/museo_slab_700-webfont.woff") format("woff"), url("../fonts/museo_slab_700-webfont.ttf") format("truetype"), url("../fonts/museo_slab_700-webfont.svg#MuseoSlab700") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'museo_sans';
+  src: url("../fonts/museosans-100-webfont.eot");
+  src: url("../fonts/museosans-100-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/museosans-100-webfont.woff") format("woff"), url("../fonts/museosans-100-webfont.ttf") format("truetype"), url("../fonts/museosans-100-webfont.svg#MuseoSans100") format("svg");
+  font-weight: 100;
+  font-style: normal;
+}
+
 /* line 1, ../scss/_main.scss */
 * {
   padding: 0;
@@ -1373,33 +1392,9 @@ ul.lof-navigator li.active, ul.lof-navigator li:hover {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-@font-face {
-  font-family: 'museo_slab';
-  src: url("../Fonts/museo_slab_500-webfont.eot");
-  src: url("../Fonts/museo_slab_500-webfont.eot?#iefix") format("embedded-opentype"), url("../Fonts/museo_slab_500-webfont.woff") format("woff"), url("../Fonts/museo_slab_500-webfont.ttf") format("truetype"), url("../Fonts/museo_slab_500-webfont.svg#MuseoSlab500") format("svg");
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'museo_slab';
-  src: url("../Fonts/museo_slab_700-webfont.eot");
-  src: url("../Fonts/museo_slab_700-webfont.eot?#iefix") format("embedded-opentype"), url("../Fonts/museo_slab_700-webfont.woff") format("woff"), url("../Fonts/museo_slab_700-webfont.ttf") format("truetype"), url("../Fonts/museo_slab_700-webfont.svg#MuseoSlab700") format("svg");
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'museo_sans';
-  src: url("../Fonts/museosans-100-webfont.eot");
-  src: url("../Fonts/museosans-100-webfont.eot?#iefix") format("embedded-opentype"), url("../Fonts/museosans-100-webfont.woff") format("woff"), url("../Fonts/museosans-100-webfont.ttf") format("truetype"), url("../Fonts/museosans-100-webfont.svg#MuseoSans100") format("svg");
-  font-weight: 100;
-  font-style: normal;
-}
-
-/* line 44, ../scss/_main.scss */
+/* line 7, ../scss/_main.scss */
 body {
-  background: url(../IMG/bg-23.jpg) repeat bottom;
+  background: url(../img/bg-23.jpg) repeat bottom;
   font-family: Helvetica, Verdana, sans-serif;
   min-height: 965px;
   height: 100%;
@@ -1407,19 +1402,19 @@ body {
 }
 
 /*Global*/
-/* line 52, ../scss/_main.scss */
+/* line 15, ../scss/_main.scss */
 img {
   border-style: none;
 }
 
-/* line 56, ../scss/_main.scss */
+/* line 19, ../scss/_main.scss */
 h1, h2, h3 {
   font-family: "museo_slab", Helvetica, Arial, sans-serif;
   font-weight: 700;
   margin: 15px 0;
 }
 
-/* line 62, ../scss/_main.scss */
+/* line 25, ../scss/_main.scss */
 p {
   font-family: Helvetica, Verdana, sans-serif;
   display: inline;
@@ -1427,144 +1422,141 @@ p {
   line-height: 1.55em;
 }
 
-/* line 69, ../scss/_main.scss */
+/* line 32, ../scss/_main.scss */
 b {
   font-family: "museo_slab", Helvetica, Arial, sans-serif;
 }
 
-/* line 73, ../scss/_main.scss */
+/* line 37, ../scss/_main.scss */
 a:link {
-  color: #000000;
+  color: #000;
 }
-
-/* line 77, ../scss/_main.scss */
+/* line 41, ../scss/_main.scss */
 a:visited {
-  color: #333333;
+  color: #333;
 }
-
-/* line 81, ../scss/_main.scss */
-a:hover, .active {
+/* line 45, ../scss/_main.scss */
+a:hover, a .active {
   color: #7AC843;
 }
 
-/* line 85, ../scss/_main.scss */
+/* line 50, ../scss/_main.scss */
 .spacer {
   height: 30px;
-  background: url(../IMG/lines-25.png) repeat-x center center;
+  background: url(../img/lines-25.png) repeat-x center center;
 }
 
-/* line 89, ../scss/_main.scss */
+/* line 55, ../scss/_main.scss */
 .power {
   background-color: rgba(255, 221, 21, 0.5);
 }
 
-/* line 92, ../scss/_main.scss */
+/* line 56, ../scss/_main.scss */
 .water {
   background-color: rgba(63, 168, 244, 0.5);
 }
 
-/* line 95, ../scss/_main.scss */
+/* line 57, ../scss/_main.scss */
 .paper {
   background-color: rgba(122, 200, 67, 0.5);
 }
 
-/* line 98, ../scss/_main.scss */
+/* line 58, ../scss/_main.scss */
 .white {
   background-color: white;
 }
 
-/* line 101, ../scss/_main.scss */
+/* line 59, ../scss/_main.scss */
 .dark {
   background-color: #7c888a;
-  color: #FFFFFF;
+  color: #FFF;
 }
 
-/* line 106, ../scss/_main.scss */
+/* line 64, ../scss/_main.scss */
 #header {
   height: 100px;
 }
-/* line 109, ../scss/_main.scss */
+/* line 67, ../scss/_main.scss */
 #header #nav ul {
   float: right;
   margin: 66px 0 0 0;
   padding: 0;
   list-style: none;
 }
-/* line 115, ../scss/_main.scss */
+/* line 73, ../scss/_main.scss */
 #header #nav ul li {
   float: left;
   padding-left: 25px;
   text-transform: uppercase;
   font: normal normal 700 18px "museo_slab", Helvetica, Arial, sans-serif;
 }
-/* line 123, ../scss/_main.scss */
+/* line 78, ../scss/_main.scss */
 #header #nav ul li a {
   text-decoration: none;
 }
 
 @media screen and (min-width: 0px) and (max-width: 480px) {
-  /* line 133, ../scss/_main.scss */
+  /* line 88, ../scss/_main.scss */
   body {
     width: 90%;
     margin: 15px auto;
   }
-  /* line 137, ../scss/_main.scss */
+  /* line 92, ../scss/_main.scss */
   body #header {
     height: auto;
   }
-  /* line 139, ../scss/_main.scss */
+  /* line 94, ../scss/_main.scss */
   body #header #logo {
     text-align: center;
   }
-  /* line 143, ../scss/_main.scss */
+  /* line 98, ../scss/_main.scss */
   body #header #nav #navlist {
     margin-top: 20px;
   }
-  /* line 150, ../scss/_main.scss */
+  /* line 105, ../scss/_main.scss */
   body .container_48 .grid_48, body .container_48 .grid_44, body .container_48 .grid_26, body .container_48 .grid_19 {
     width: 100%;
   }
-  /* line 153, ../scss/_main.scss */
+  /* line 108, ../scss/_main.scss */
   body .container_48 .left_1, body .container_48 .left_2, body .container_48 .push_1, body .container_48 .push_2, body .container_48 .push_3 {
     left: 0;
   }
-  /* line 156, ../scss/_main.scss */
+  /* line 111, ../scss/_main.scss */
   body .container_48 .grid_20, body .container_48 .grid_21 {
     width: 100%;
-    /*left:20px;*/
   }
-  /* line 162, ../scss/_main.scss */
+  /* line 116, ../scss/_main.scss */
   body ul {
     margin-left: 6%;
   }
-  /* line 164, ../scss/_main.scss */
+  /* line 118, ../scss/_main.scss */
   body ul li {
     margin-bottom: 10px;
   }
 
-  /* line 169, ../scss/_main.scss */
+  /* line 123, ../scss/_main.scss */
   .spacer, #banner, .hide, #footer_left {
     display: none;
   }
 
-  /* line 173, ../scss/_main.scss */
+  /* line 127, ../scss/_main.scss */
   .container_48 {
     width: 100%;
     margin: 0 auto;
   }
 
-  /* line 177, ../scss/_main.scss */
+  /* line 132, ../scss/_main.scss */
   #content {
     width: 90%;
     background: #fff;
     left: 0;
     padding: 0 5% 20px 5%;
   }
-  /* line 182, ../scss/_main.scss */
+  /* line 137, ../scss/_main.scss */
   #content ul {
-    list-style-image: url("../IMG/bullets-01.jpg");
+    list-style-image: url("../img/bullets-01.jpg");
   }
-  /* line 186, ../scss/_main.scss */
+  /* line 141, ../scss/_main.scss */
   #content #content-top blockquote {
     font-family: "museo_slab", Helvetica, Arial, sans-serif;
     font-weight: 700;
@@ -1572,61 +1564,61 @@ a:hover, .active {
     margin-top: 20px;
     font-size: 20px;
   }
-  /* line 197, ../scss/_main.scss */
+  /* line 152, ../scss/_main.scss */
   #content #main-right h1 {
     font-size: 0px;
   }
-  /* line 200, ../scss/_main.scss */
+  /* line 155, ../scss/_main.scss */
   #content #main-right #main_sign, #content #main-right form {
     text-align: center;
   }
-  /* line 203, ../scss/_main.scss */
+  /* line 158, ../scss/_main.scss */
   #content #main-right #main_sign_email_field {
     width: 85%;
     font-size: 30px;
     margin: 10px auto;
   }
-  /* line 213, ../scss/_main.scss */
+  /* line 166, ../scss/_main.scss */
   #content #main-left #subnav {
     width: 100%;
   }
-  /* line 215, ../scss/_main.scss */
+  /* line 168, ../scss/_main.scss */
   #content #main-left #subnav li {
     font-family: "museo_sans", Helvetica, Arial, sans-serif;
     margin: 10px 0;
   }
-  /* line 221, ../scss/_main.scss */
+  /* line 174, ../scss/_main.scss */
   #content #main-left .tip_container a {
     font-family: "museo_slab", Helvetica, Arial, sans-serif;
   }
-  /* line 224, ../scss/_main.scss */
+  /* line 177, ../scss/_main.scss */
   #content #main-left .tip_container .tip_title {
     font-family: "museo_sans", Helvetica, Arial, sans-serif;
   }
-  /* line 227, ../scss/_main.scss */
+  /* line 180, ../scss/_main.scss */
   #content #main-left .tip_container .tip_body {
     min-height: 300px;
     padding-left: 0;
   }
-  /* line 233, ../scss/_main.scss */
+  /* line 186, ../scss/_main.scss */
   #content #main-left #submit_tip_form fieldset {
     width: 100%;
     border: 0;
     margin-bottom: 10px;
     font: 25px "museo_slab", Helvetica, Arial, sans-serif;
   }
-  /* line 238, ../scss/_main.scss */
+  /* line 191, ../scss/_main.scss */
   #content #main-left #submit_tip_form fieldset textarea {
     width: 100%;
   }
-  /* line 241, ../scss/_main.scss */
+  /* line 194, ../scss/_main.scss */
   #content #main-left #submit_tip_form fieldset label {
     font-size: 16px;
     margin-top: 5px;
   }
-  /* line 246, ../scss/_main.scss */
+  /* line 198, ../scss/_main.scss */
   #content #main-left #submit_tip_form fieldset #submit {
-    color: #FFFFFF;
+    color: #FFF;
     margin: auto;
     text-align: center;
     width: 100%;
@@ -1638,12 +1630,12 @@ a:hover, .active {
     cursor: hand;
   }
 
-  /* line 262, ../scss/_main.scss */
+  /* line 215, ../scss/_main.scss */
   #footer {
     margin-top: 15px;
     width: 100%;
   }
-  /* line 265, ../scss/_main.scss */
+  /* line 218, ../scss/_main.scss */
   #footer #footer_middle {
     color: #FFF;
     text-decoration: none;
@@ -1652,36 +1644,36 @@ a:hover, .active {
     background-color: #7C888A;
     padding-left: 20px;
   }
-  /* line 272, ../scss/_main.scss */
+  /* line 225, ../scss/_main.scss */
   #footer #footer_middle a {
     color: #FFF;
     text-decoration: none;
   }
-  /* line 277, ../scss/_main.scss */
+  /* line 230, ../scss/_main.scss */
   #footer #footer_right {
     width: 100%;
     margin: 0 auto 10px;
     text-align: center;
     left: 0;
   }
-  /* line 282, ../scss/_main.scss */
+  /* line 235, ../scss/_main.scss */
   #footer #footer_right h2 {
     margin-bottom: 5px;
   }
 }
 @media screen and (min-width: 481px) {
-  /* line 293, ../scss/_main.scss */
+  /* line 243, ../scss/_main.scss */
   #header {
     height: 100px;
   }
-  /* line 296, ../scss/_main.scss */
+  /* line 246, ../scss/_main.scss */
   #header #nav ul {
     float: right;
     margin: 66px 0 0 0;
     padding: 0;
     list-style: none;
   }
-  /* line 302, ../scss/_main.scss */
+  /* line 252, ../scss/_main.scss */
   #header #nav ul li {
     font-size: 18px;
     font-weight: 800;
@@ -1690,12 +1682,12 @@ a:hover, .active {
     text-transform: uppercase;
     font-family: "museo_slab", Helvetica, Arial, sans-serif;
   }
-  /* line 309, ../scss/_main.scss */
+  /* line 259, ../scss/_main.scss */
   #header #nav ul li a {
     text-decoration: none;
   }
 
-  /* line 317, ../scss/_main.scss */
+  /* line 267, ../scss/_main.scss */
   #content {
     height: auto;
     margin-bottom: 10px;
@@ -1703,32 +1695,32 @@ a:hover, .active {
     min-height: 300px;
     padding-bottom: 40px;
   }
-  /* line 324, ../scss/_main.scss */
+  /* line 274, ../scss/_main.scss */
   #content #content-top {
     height: 150px;
     margin-bottom: 50px;
   }
-  /* line 328, ../scss/_main.scss */
+  /* line 278, ../scss/_main.scss */
   #content .tip_body {
     display: none;
   }
-  /* line 331, ../scss/_main.scss */
+  /* line 281, ../scss/_main.scss */
   #content a {
     font-family: "museo_slab", Helvetica, Arial, sans-serif;
   }
-  /* line 334, ../scss/_main.scss */
+  /* line 284, ../scss/_main.scss */
   #content ul {
     margin-left: 20px;
     color: #009999;
-    list-style-image: url("../IMG/bullets-01.jpg");
+    list-style-image: url("../img/bullets-01.jpg");
   }
-  /* line 339, ../scss/_main.scss */
+  /* line 289, ../scss/_main.scss */
   #content ul li {
     margin-bottom: 17px;
-    color: #000000;
-    background-color: #FFFFFF;
+    color: #000;
+    background-color: #FFF;
   }
-  /* line 345, ../scss/_main.scss */
+  /* line 295, ../scss/_main.scss */
   #content blockquote {
     font-family: "museo_slab", Helvetica, Arial, sans-serif;
     font-weight: 700;
@@ -1736,13 +1728,13 @@ a:hover, .active {
     margin-top: 20px;
     font-size: 27px;
   }
-  /* line 353, ../scss/_main.scss */
+  /* line 303, ../scss/_main.scss */
   #content #main-right #main_sign {
     margin-bottom: 10px;
     text-align: center;
     font-family: "museo_slab", Helvetica, Arial, sans-serif;
   }
-  /* line 358, ../scss/_main.scss */
+  /* line 308, ../scss/_main.scss */
   #content #main-right #main_sign_email_field {
     height: 45px;
     border: #333333 thin solid;
@@ -1750,9 +1742,9 @@ a:hover, .active {
     margin-bottom: 10px;
     font: 30px "museo_slab", Helvetica, Arial, sans-serif;
   }
-  /* line 366, ../scss/_main.scss */
+  /* line 316, ../scss/_main.scss */
   #content #main-right #main_sign_button {
-    color: #FFFFFF;
+    color: #FFF;
     margin: auto;
     text-align: center;
     width: 400px;
@@ -1763,98 +1755,98 @@ a:hover, .active {
     cursor: pointer;
     cursor: hand;
   }
-  /* line 379, ../scss/_main.scss */
+  /* line 329, ../scss/_main.scss */
   #content #submit_tip_form {
     font: "museo_sans", Helvetica, Arial, sans-serif;
   }
-  /* line 381, ../scss/_main.scss */
+  /* line 331, ../scss/_main.scss */
   #content #submit_tip_form label {
     margin-top: 12px;
     font-family: Helvetica, Verdana, sans-serif;
   }
-  /* line 385, ../scss/_main.scss */
+  /* line 335, ../scss/_main.scss */
   #content #submit_tip_form label, #content #submit_tip_form input, #content #submit_tip_form textarea, #content #submit_tip_form input {
     font: Helvetica, Verdana, sans-serif;
     float: left;
   }
-  /* line 389, ../scss/_main.scss */
+  /* line 339, ../scss/_main.scss */
   #content #submit_tip_form fieldset {
     border: 0;
     width: 400px;
   }
-  /* line 393, ../scss/_main.scss */
+  /* line 343, ../scss/_main.scss */
   #content #submit_tip_form fieldset input, #content #submit_tip_form fieldset textarea {
     margin-top: 3px;
     width: 400px;
   }
 
   /*END CONTENT*/
-  /* line 401, ../scss/_main.scss */
+  /* line 351, ../scss/_main.scss */
   #footer {
     background-color: #7c888a;
     height: 165px;
     width: 100%;
     float: left;
-    color: #FFFFFF;
+    color: #FFF;
     position: static;
     bottom: 0;
   }
-  /* line 410, ../scss/_main.scss */
+  /* line 360, ../scss/_main.scss */
   #footer h2 {
     width: auto;
     text-align: left;
     font-weight: 500;
     margin: 15px 0 8px 0;
   }
-  /* line 416, ../scss/_main.scss */
+  /* line 366, ../scss/_main.scss */
   #footer a {
     text-decoration: none;
   }
-  /* line 419, ../scss/_main.scss */
+  /* line 368, ../scss/_main.scss */
   #footer a:link, #footer a:visited {
-    color: #FFFFFF;
+    color: #FFF;
   }
-  /* line 423, ../scss/_main.scss */
+  /* line 372, ../scss/_main.scss */
   #footer a:hover {
     color: #7AC843;
   }
-  /* line 427, ../scss/_main.scss */
+  /* line 377, ../scss/_main.scss */
   #footer ul {
     list-style: none;
     width: auto;
     text-align: left;
     margin: 0;
   }
-  /* line 435, ../scss/_main.scss */
+  /* line 385, ../scss/_main.scss */
   #footer #footer_left li {
     margin-bottom: 3px;
     font-size: 12px;
   }
-  /* line 442, ../scss/_main.scss */
+  /* line 392, ../scss/_main.scss */
   #footer #footer_center li {
     margin-bottom: 10px;
   }
-  /* line 448, ../scss/_main.scss */
+  /* line 398, ../scss/_main.scss */
   #footer #footer_right h2 {
     text-align: center;
   }
-  /* line 451, ../scss/_main.scss */
+  /* line 401, ../scss/_main.scss */
   #footer #footer_right #footer_social {
     width: 175px;
     margin: auto;
   }
-  /* line 455, ../scss/_main.scss */
+  /* line 405, ../scss/_main.scss */
   #footer #footer_right #footer_social img {
     margin-top: 11px;
     margin-left: 7px;
   }
 
   /*END FOOTER*/
-  /* line 463, ../scss/_main.scss */
+  /* line 413, ../scss/_main.scss */
   #ajax-call {
     width: 100%;
     background: #000;
-    background: url("../IMG/ajax-loader.gif") no-repeat scroll center center;
+    background: url("../img/ajax-loader.gif") no-repeat scroll center center;
     height: 300px;
   }
 }

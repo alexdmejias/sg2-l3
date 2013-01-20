@@ -6,34 +6,36 @@
 	text-align:center;
 	width:880px;
 	margin:0 0 10px 0;
-}
 
-#subnav li {
-	display:inline;
-	list-style-type:none;
-	padding:0 8px;
-	font-weight:700;
-	font-family: $serif;
-	font-size:1.05em;
-}
+	li {
+		display:inline;
+		list-style-type:none;
+		padding:0 8px;
+		font-weight:700;
+		font-family: $serif;
+		font-size:1.05em;
+	}
 
-#subnav a {
-	text-decoration:none;
-}
+	a {
+		text-decoration:none;
 
-#subnav a:link {
-	color:#000;
-}
+		&:link {
+			color:#000;
+		}
 
- #subnav a:visited {
-	color:#000;
-}
+		&:visited {
+			color:#000;
+		}
 
-#subnav a:hover {
-	color:#7AC843;
-}
+		&:hover {
+			color:#7AC843;
+		}
+	}
 
- .tip_whole {
+
+} // end #subnav
+
+.tip_whole {
 	margin-bottom:2px;
 	padding:10px;
 	font-family: $sans;
